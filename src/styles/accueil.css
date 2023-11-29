@@ -1,0 +1,45 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .feature {
+    margin: 40px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1a73e8;
+  }
+  
