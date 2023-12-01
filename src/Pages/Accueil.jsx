@@ -1,6 +1,7 @@
 // Home.js
 
 import React from "react";
+import accueil from "@assets/accueil.jpg";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       </div>
 
       <div className="feature">
-        <img src="path/to/ai_robot_image.jpg" alt="Robot AI" />
+        <img src={accueil} alt="Robot AI" />
         <h2>Intelligence Artificielle Avancée</h2>
         <p>
           utilise l'ia pour amelioer la securité et l'eficatié des pompier. car
