@@ -7,7 +7,8 @@ const Home = () => {
   return (
     <div className="home-container">
       <h1>
-        Bienvenue sur notre site de robots de défense contre les incendies
+        Bienvenue sur notre site de robots de défense contre les incendies et
+        autre incident climatiques
       </h1>
       <div className="feature">
         <img src="path/to/ai_robot_image.jpg" alt="Robot AI" />
