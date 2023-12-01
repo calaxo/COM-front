@@ -6,7 +6,7 @@ import "@styles/page.css";
 import Page404 from "@pages/Page404";
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   NavLink,
