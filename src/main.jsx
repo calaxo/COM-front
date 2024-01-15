@@ -3,6 +3,9 @@ import "@styles/index.css";
 import "@styles/accueil.css";
 import "@styles/page.css";
 
+
+
+
 import Page404 from "@pages/Page404";
 
 import {
@@ -16,9 +19,17 @@ import {
 import Accueil from "@pages/Accueil.jsx";
 
 import Drone from "@pages/Drone.jsx";
+
 import Serpent from "@pages/Serpent";
+import Ficheserpent from "@pages/Ficheserpent";
+
 import Gaz from "@pages/Gaz";
+
 import Recherche from "@pages/Recherche";
+
+
+
+
 
 import Condition from "@pages/Condition.jsx";
 
@@ -105,6 +116,7 @@ function App() {
           <Route path="/Gaz" element={<Gaz />} />
           <Route path="/Recherche" element={<Recherche />} />
           <Route path="/Condition" element={<Condition />} />
+          <Route path="/Ficheserpent" element={<Ficheserpent />} />
 
           <Route path="*" element={<Page404 />} />
         </Routes>
